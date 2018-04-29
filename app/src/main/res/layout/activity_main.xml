@@ -9,7 +9,7 @@
    <ImageView
        android:id="@+id/imageView"
        android:layout_width="0dp"
-       android:layout_height="226dp"
+       android:layout_height="350dp"
        android:scaleType="fitXY"
        app:layout_constraintLeft_toLeftOf="parent"
        app:layout_constraintTop_toTopOf="parent"
@@ -69,6 +69,16 @@
         android:text="@string/phone"
         app:layout_constraintStart_toEndOf="@+id/phoneLabel"
         app:layout_constraintTop_toBottomOf="@+id/locationDetails"/>
+   <Button
+       android:id="@+id/buttonLoadAnotherLayout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginTop="8dp"
+       android:text="@string/loadAnotherLayout"
+       app:layout_constraintStart_toEndOf="@+id/phoneDetails"
+       app:layout_constraintTop_toTopOf="@+id/locationDetails"/>
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
@@ -79,7 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/group"
-        app:constraint_referenced_ids="locationLabel,locationDetails,phoneLabel,phoneDetails"/>
+        app:constraint_referenced_ids="locationLabel,locationDetails,phoneLabel,phoneDetails,buttonLoadAnotherLayout"/>
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -89,12 +99,14 @@
         android:layout_marginTop="20dp"
         android:text="@string/hide_details"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/phoneLabel"/>
-   <android.support.constraint.Barrier
-       android:id="@+id/barrier"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       app:barrierDirection="left" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLoadAnotherLayout"/>
+
+ <android.support.constraint.Barrier
+     android:id="@+id/barrier"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     app:barrierDirection="left"
+     />
 
 
 

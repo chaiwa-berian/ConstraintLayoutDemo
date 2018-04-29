@@ -8,4 +8,5 @@
     <string name="location">Location Details</string>
     <string name="phone_label">Phone</string>
     <string name="phone">09784442211</string>
+    <string name="loadAnotherLayout">Load Another Layout</string>
 </resources>
