@@ -9,4 +9,6 @@
     <string name="phone_label">Phone</string>
     <string name="phone">09784442211</string>
     <string name="loadAnotherLayout">Load Another Layout</string>
+    <string name="buttonLabel">Button</string>
+    <string name="textView">Align to buttom baseline</string>
 </resources>
