@@ -2,4 +2,10 @@
     <string name="app_name">ConstraintLayoutGroupDemo</string>
     <string name="hide_details">Hide details</string>
     <string name="show_details">Show Details</string>
+    <string name="image_note">My Image</string>
+    <string name="company_name">Bantu Logic</string>
+    <string name="location_label">Location</string>
+    <string name="location">Location Details</string>
+    <string name="phone_label">Phone</string>
+    <string name="phone">09784442211</string>
 </resources>

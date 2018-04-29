@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        if (group.getVisibility() == View.VISIBLE){
+        if (group.getVisibility() == View.GONE){
             group.setVisibility(View.VISIBLE);
             button.setText(R.string.hide_details);
 
