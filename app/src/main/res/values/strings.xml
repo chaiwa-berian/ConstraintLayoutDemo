@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ConstraintLayoutGroupDemo</string>
+    <string name="hide_details">Hide details</string>
+    <string name="show_details">Show Details</string>
 </resources>
